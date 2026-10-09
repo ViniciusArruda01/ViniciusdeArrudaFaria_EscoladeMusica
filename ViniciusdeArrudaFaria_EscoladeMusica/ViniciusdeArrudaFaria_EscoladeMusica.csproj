@@ -104,6 +104,18 @@
     <Compile Include="cadastro-aula.Designer.cs">
       <DependentUpon>cadastro-aula.cs</DependentUpon>
     </Compile>
+    <Compile Include="consulta-aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta-aluno.Designer.cs">
+      <DependentUpon>consulta-aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consulta-aula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta-aula.Designer.cs">
+      <DependentUpon>consulta-aula.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cadastro-aula.resx">
       <DependentUpon>cadastro-aula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta-aluno.resx">
+      <DependentUpon>consulta-aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta-aula.resx">
+      <DependentUpon>consulta-aula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

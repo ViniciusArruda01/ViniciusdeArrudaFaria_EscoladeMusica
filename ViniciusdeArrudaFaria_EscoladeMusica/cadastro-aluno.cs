@@ -62,6 +62,10 @@ namespace ViniciusdeArrudaFaria_EscoladeMusica
             txtnomeinst.Clear();
         }
 
+        private void cadastro_aluno_Load(object sender, EventArgs e)
+        {
+
         }
+    }
     }
 

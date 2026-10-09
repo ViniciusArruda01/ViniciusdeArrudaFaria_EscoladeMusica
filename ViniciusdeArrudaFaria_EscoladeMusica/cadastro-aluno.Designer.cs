@@ -190,6 +190,7 @@
             this.Controls.Add(this.label1);
             this.Name = "cadastro_aluno";
             this.Text = "cadastro_aluno";
+            this.Load += new System.EventHandler(this.cadastro_aluno_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
