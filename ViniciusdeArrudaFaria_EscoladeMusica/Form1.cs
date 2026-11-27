@@ -75,7 +75,7 @@ namespace ViniciusdeArrudaFaria_EscoladeMusica
         {
             this.Hide();
             var cadastro_aula = new cadastro_aula();
-            cadastro_aula.Show();
+            cadastro_aula.Show() ;
         }
 
         private void button4_Click(object sender, EventArgs e)
