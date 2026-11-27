@@ -62,6 +62,7 @@ namespace ViniciusdeArrudaFaria_EscoladeMusica
             txtnomeinst.Clear();
         }
 
+<<<<<<< HEAD:ViniciusdeArrudaFaria_EscoladeMusica/cadastro_aluno.cs
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -81,6 +82,11 @@ namespace ViniciusdeArrudaFaria_EscoladeMusica
             conexao = new MySqlConnection("server=localhost;user=root;password=");
             conexao.Open();
             conexao.Close();
+=======
+        private void cadastro_aluno_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> 781c310bd9759a08fb88f228af3cfdcb9baba6ba:ViniciusdeArrudaFaria_EscoladeMusica/cadastro-aluno.cs
         }
     }
     }
