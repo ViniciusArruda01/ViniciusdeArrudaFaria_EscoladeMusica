@@ -29,10 +29,10 @@ namespace ViniciusdeArrudaFaria_EscoladeMusica
 
         private void button1_Click(object sender, EventArgs e)
         {
-            comando = new MySqlCommand(
-   "insert into alunos( nome, endereco, cpf, ) " +
-   "values( '" + txtnomeinst.Text + "','" + txtnomeprof.Text + "','" + txtdias.Text + "')", conexao);
-            comando.ExecuteNonQuery();
+            sql=
+                   "insert into aulas( instrumento, dia_semana, professor ) " +
+                   "values( '" + txtnomeinst.Text + "','" + txtnomeprof.Text + "','" + txtdias.Text + "')";
+            
 
 
             try
@@ -69,12 +69,23 @@ namespace ViniciusdeArrudaFaria_EscoladeMusica
 
         private void cadastro_aula_Load(object sender, EventArgs e)
         {
-
+            conexao = new MySqlConnection("server=localhost;user=root;password=");
+            conexao.Open();
+            conexao.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Close();
+            var consulta_aula = new consulta_aluno();
+            consulta_aula.Show();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var form1 = new Form1();
+            form1.Show();
         }
     }
 }

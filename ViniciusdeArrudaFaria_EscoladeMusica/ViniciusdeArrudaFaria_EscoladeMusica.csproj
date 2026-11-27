@@ -92,17 +92,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cadastro-aluno.cs">
+    <Compile Include="cadastro_aluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cadastro-aluno.Designer.cs">
-      <DependentUpon>cadastro-aluno.cs</DependentUpon>
+    <Compile Include="cadastro_aluno.Designer.cs">
+      <DependentUpon>cadastro_aluno.cs</DependentUpon>
     </Compile>
-    <Compile Include="cadastro-aula.cs">
+    <Compile Include="cadastro_aula.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="cadastro-aula.Designer.cs">
-      <DependentUpon>cadastro-aula.cs</DependentUpon>
+    <Compile Include="cadastro_aula.Designer.cs">
+      <DependentUpon>cadastro_aula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consulta_aluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta_aluno.Designer.cs">
+      <DependentUpon>consulta_aluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consulta_aula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consulta_aula.Designer.cs">
+      <DependentUpon>consulta_aula.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -112,11 +124,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="cadastro-aluno.resx">
-      <DependentUpon>cadastro-aluno.cs</DependentUpon>
+    <EmbeddedResource Include="cadastro_aluno.resx">
+      <DependentUpon>cadastro_aluno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="cadastro-aula.resx">
-      <DependentUpon>cadastro-aula.cs</DependentUpon>
+    <EmbeddedResource Include="cadastro_aula.resx">
+      <DependentUpon>cadastro_aula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta_aluno.resx">
+      <DependentUpon>consulta_aluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consulta_aula.resx">
+      <DependentUpon>consulta_aula.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
